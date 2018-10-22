@@ -21,7 +21,7 @@ served on:
 ```
 should look like this:
 
-![alt text](https://raw.githubusercontent.com/Josrodjr/weblab09/blob/master/images/functionalities.png)
+![alt text](https://raw.githubusercontent.com/Josrodjr/weblab09/master/images/functionalities.PNG)
 
 change db priviledges at /chismesapi/settings
 made with Postgresql
