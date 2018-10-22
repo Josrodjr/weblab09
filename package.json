@@ -4,8 +4,8 @@
   "description": "weblab09",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./project/frontapp/src/index.js --output ./project/frontapp/static/frontapp/main.js",
-    "build": "webpack --mode production ./project/frontapp/src/index.js --output ./project/frontapp/static/frontapp/main.js"
+    "dev": "webpack --mode development ./chismesapi/frontapp/src/index.js --output ./chismesapi/frontapp/static/frontapp/main.js",
+    "build": "webpack --mode production ./chismesapi/frontapp/src/index.js --output ./chismesapi/frontapp/static/frontapp/main.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "weak-key": "^1.0.1",
     "webpack": "^4.22.0",
     "webpack-cli": "^3.1.2"
   }
