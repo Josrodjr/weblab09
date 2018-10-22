@@ -5,9 +5,59 @@
   height: 50rem;
 }
 
+.section-pink {
+  background-color: #ffcce6;
+}
+
 .thicc-letters {
   text-align: center;
   text-transform: capitalize;
   font-size: 4rem;
+  color: #a51874
 }
 
+.smalltitle {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #a51874;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e495e4;
+}
+
+table {
+  background-color: #ff33cc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.pinkbtn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #a51874;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.description {
+  height: 10rem;
+  width: 100%;
+}
+
+.title {
+  width: 100%;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import "../style/style.css";
 
 class Form extends Component {
   static propTypes = {
@@ -33,7 +34,7 @@ class Form extends Component {
             <label className="label">Titulo</label>
             <div className="control">
               <input
-                className="input"
+                className="title"
                 type="text"
                 name="titulo"
                 onChange={this.handleChange}
@@ -45,7 +46,7 @@ class Form extends Component {
             <label className="label">Descripcion</label>
             <div className="control">
               <input
-                className="input"
+                className="description"
                 type="text"
                 name="descripcion"
                 onChange={this.handleChange}
@@ -54,13 +55,13 @@ class Form extends Component {
             </div>
           </div>
           <div className="control">
-            <button type="submit" className="button is-info">
+            <button type="submit" className="pinkbtn">
               Publicar chisme hehe
             </button>
           </div>
         </form>
       </div>
-      <div>Nuevo Chisme</div>
+      <div className="smalltitle">Nuevo Chisme</div>
       </React.Fragment>
     );
   }

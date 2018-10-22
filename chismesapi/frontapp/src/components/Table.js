@@ -1,20 +1,19 @@
 import React from "react";
 import PropTypes from "prop-types";
 import key from "weak-key";
+import "../style/style.css";
 
 const Table = ({ data }) =>
   !data.length ? (
     <p>Nada en la DB</p>
   ) : (
     <div className="column">
-      <h2 className="subtitle">
-        {data.length} Chismes:
-      </h2>
-      <table className="table is-striped">
+      <div className="smalltitle">
+        Ultimos Chismes:
+      </div>
+      <table>
         <thead>
-          {/* <tr>
-            {Object.entries(data[0]).map(el => <th key={key(el)}>{el[0]}</th>)}
-          </tr> */}
+          {}
         </thead>
         <tbody>
           {data.map(el => (
